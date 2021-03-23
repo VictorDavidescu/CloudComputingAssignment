@@ -1,0 +1,78 @@
+---------------------------------------------------------------------------------------------
+SID: 1705734
+Author: Victor-Florian Davidescu
+Output for file: sample-a.txt
+---------------------------------------------------------------------------------------------
+Total number of words: 52
+Total number of distinct words: 46
+Popular words threshold: 3
+Common words left threshold: 21
+Common words right threshold: 25
+Rare words threshold: 43
+---------------------------------------------------------------------------------------------
+
+Popular Words
++----+-----+---------+
+|Rank| Word|Frequency|
++----+-----+---------+
+|   1|spark|        3|
+|   2|  the|        3|
+|   3|   an|        2|
++----+-----+---------+
+
+Common Words
++----+-----------+---------+
+|Rank|       Word|Frequency|
++----+-----------+---------+
+|  21|      fault|        1|
+|  22|  tolerance|        1|
+|  23|distributed|        1|
+|  24|    general|        1|
+|  25|    purpose|        1|
++----+-----------+---------+
+
+Rare Words
++----+-----------+---------+
+|Rank|       Word|Frequency|
++----+-----------+---------+
+|  43|       with|        1|
+|  44|       data|        1|
+|  45|parallelism|        1|
+|  46|        and|        1|
++----+-----------+---------+
+
+---------------------------------------------------------------------------------------------
+Total number of distinct letters: 22
+Popular letters threshold: 2
+Common letters left threshold: 10
+Common letters right threshold: 12
+Rare letters threshold: 20
+---------------------------------------------------------------------------------------------
+
+Popular Letters
++----+------+---------+
+|Rank|Letter|Frequency|
++----+------+---------+
+|   1|     e|       36|
+|   2|     a|       35|
++----+------+---------+
+
+Common Letters
++----+------+---------+
+|Rank|Letter|Frequency|
++----+------+---------+
+|  10|     p|       15|
+|  11|     c|       13|
+|  12|     d|       12|
++----+------+---------+
+
+Rare Letters
++----+------+---------+
+|Rank|Letter|Frequency|
++----+------+---------+
+|  20|     b|        4|
+|  21|     y|        3|
+|  22|     v|        3|
++----+------+---------+
+
+---------------------------------------------------------------------------------------------

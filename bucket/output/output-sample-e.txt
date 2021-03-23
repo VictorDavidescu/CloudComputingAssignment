@@ -1,0 +1,68 @@
+---------------------------------------------------------------------------------------------
+SID: 1705734
+Author: Victor-Florian Davidescu
+Output for file: sample-e.txt
+---------------------------------------------------------------------------------------------
+Total number of words: 22
+Total number of distinct words: 11
+Popular words threshold: 1
+Common words left threshold: 5
+Common words right threshold: 6
+Rare words threshold: 10
+---------------------------------------------------------------------------------------------
+
+Popular Words
++----+----+---------+
+|Rank|Word|Frequency|
++----+----+---------+
+|   1|  ab|        8|
++----+----+---------+
+
+Common Words
++----+----+---------+
+|Rank|Word|Frequency|
++----+----+---------+
+|   5|  ff|        1|
+|   6|khhh|        1|
++----+----+---------+
+
+Rare Words
++----+----+---------+
+|Rank|Word|Frequency|
++----+----+---------+
+|  10|  bb|        1|
+|  11|cdba|        1|
++----+----+---------+
+
+---------------------------------------------------------------------------------------------
+Total number of distinct letters: 11
+Popular letters threshold: 1
+Common letters left threshold: 5
+Common letters right threshold: 6
+Rare letters threshold: 10
+---------------------------------------------------------------------------------------------
+
+Popular Letters
++----+------+---------+
+|Rank|Letter|Frequency|
++----+------+---------+
+|   1|     b|       13|
++----+------+---------+
+
+Common Letters
++----+------+---------+
+|Rank|Letter|Frequency|
++----+------+---------+
+|   5|     c|        4|
+|   6|     d|        4|
++----+------+---------+
+
+Rare Letters
++----+------+---------+
+|Rank|Letter|Frequency|
++----+------+---------+
+|  10|     r|        1|
+|  11|     k|        1|
++----+------+---------+
+
+---------------------------------------------------------------------------------------------
