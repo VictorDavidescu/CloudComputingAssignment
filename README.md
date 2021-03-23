@@ -49,12 +49,12 @@ SID: 1705734
   - Create a cluster that has the requirements specified in "Tested cluster details"
   - Create an S3 bucket that has the requirements specified in "Tested S3 bucket details"
   - On EMR cluster create a new step and complete the following fields:
-      > Step type: Spark application
-      > Name: <any_name>
-      > Deploy mode: Cluster
-      > Spark-submit options: Empty
-      > Application location: s3://<bucket_name>/<path_to_python_script>
-      > Arguments: s3://<bucket_name> <directory_name_for_sample_txt_files> <directory_name_for_output_sample_txt_files> <sample_file_name>
-      > Action on failure: Continue
+      - Step type: Spark application
+      - Name: <any_name>
+      - Deploy mode: Cluster
+      - Spark-submit options: Empty
+      - Application location: s3://<bucket_name>/<path_to_python_script>
+      - Arguments: s3://<bucket_name> <directory_name_for_sample_txt_files> <directory_name_for_output_sample_txt_files> <sample_file_name>
+      - Action on failure: Continue
   - Example of arguments passed: s3://victor1705734 input_samples output_samples sample-a.txt
   - Check the S3 bucket at the location you specified for the output sample txt file, to see the results.
