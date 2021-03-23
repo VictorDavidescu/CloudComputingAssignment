@@ -1,16 +1,13 @@
 # CloudComputingAssignment
-# Project B- Batch Data Processing
-# Author: Victor-Florian Davidescu
-# SID: 1705734
-
-
-# Created two versions of the Spark Advanced Word Count.
+Project B- Batch Data Processing
+Author: Victor-Florian Davidescu
+SID: 1705734
 
 # Version 1 (Local) - SparkAdvancedWordCount-LOCAL.py
 
   Description: This version was created to test the functionality on a local machine or on a VM with Spark installed on it.
   
-  # Tested environment details:
+  Tested environment details:
   - Machine type: Oracle VM Virtual Box
   - OS: Ubuntu 20.04
   - Packages installed: JDK, Scala, Git, Python 3.x, Apache Spark 3.0.2 with Hadoop 3.2 and later
@@ -19,7 +16,7 @@
   - Used two VMs, one for the master server, the other one as worker
   - IMPORTANT! All VMs must have the same directory tree with the samples files included, to make the script work
 
-  # How to run the script:
+  How to run the script:
   - Command example: python3 SparkAdvancedWordCount-LOCAL.py spark://vm-master:7077 bucket/input bucket/output sample-a.txt
   - Argument 1 (spark://vm-master:7077): The URL link to the apache spark master server. 
   - Argument 2 (bucket/input): The directory path where the sample txt file is located.
@@ -31,7 +28,7 @@
 
   Description: This version was created to test the functionality on a AWS EMR cluster. To run this script requires an AWS EMR and S3 bucket.
   
-  # Tested EMR cluster details:
+  Tested EMR cluster details:
   - Machine type: Amazon Web Services (AWS) - Elastic MapReduce (EMR)
   - Release label: emr-6.2.0
   - Applications: Spark 3.0.1, Zeppelin 0.9.0
@@ -42,13 +39,13 @@
   - Optional: Open ports for SSH for master, by adding it in its security group.
   - Optional: Open ports for SSH for slave, by adding it in its security group.
 
-  # Tested S3 bucket details:
+  Tested S3 bucket details:
   - Simple S3 bucket with default options.
   - Added pythno script SparkAdvancedWordCount-AWS-EMR.py.
   - Added directory for the sample txt files and added the txt samples aswell.
   - Added directory for the output sample txt files.
 
-  # How to run the script:
+  How to run the script:
   - Create a cluster that has the requirements specified in "Tested cluster details"
   - Create an S3 bucket that has the requirements specified in "Tested S3 bucket details"
   - On EMR cluster create a new step and complete the following fields:
