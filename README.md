@@ -1,6 +1,8 @@
 # CloudComputingAssignment
 Project B- Batch Data Processing
+
 Author: Victor-Florian Davidescu
+
 SID: 1705734
 
 # Version 1 (Local) - SparkAdvancedWordCount-LOCAL.py
