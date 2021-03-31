@@ -16,10 +16,8 @@ SID: 1705734
     WARNING: It requires to configure the spark environment. 
     Details to how to install apache spark on Ubuntu can be found at this link: https://phoenixnap.com/kb/install-spark-on-ubuntu  
   - Used two VMs, one for the master server, the other one as worker
+  - Make sure that slave VM is able to connect 
   - IMPORTANT! All VMs must have the same directory tree with the samples files included, to make the script work
-
-  Link to two pacakges containing the VMs used in this development:
-  https://drive.google.com/drive/folders/1mc2AH47w_xcoVuvFGS5YriMFkEoTyNHn?usp=sharing
 
   How to run the script:
   - Command example: python3 SparkAdvancedWordCount-LOCAL.py spark://vm-master:7077 bucket/input bucket/output sample-a.txt
