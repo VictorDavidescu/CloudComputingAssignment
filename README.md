@@ -5,18 +5,21 @@ Author: Victor-Florian Davidescu
 
 SID: 1705734
 
-# Version 1 (Local) - SparkAdvancedWordCount-LOCAL.py
+# Version 1 (Virtual Machine) - SparkAdvancedWordCount-VM.py
 
   Description: This version was created to test the functionality on a local machine or on a VM with Spark installed on it.
   
   Tested environment details:
-  - Machine type: Oracle VM Virtual Box
+  - Tool used for VMs: Oracle VM Virtual Box
   - OS: Ubuntu 20.04
-  - Packages installed: JDK, Scala, Git, Python 3.x, Apache Spark 3.0.2 with Hadoop 3.2 and later
+  - Packages installed: JDK, Scala, Git, Python 3.8.5, Apache Spark 3.0.2 with Hadoop 3.2 and later
     WARNING: It requires to configure the spark environment. 
     Details to how to install apache spark on Ubuntu can be found at this link: https://phoenixnap.com/kb/install-spark-on-ubuntu  
   - Used two VMs, one for the master server, the other one as worker
   - IMPORTANT! All VMs must have the same directory tree with the samples files included, to make the script work
+
+  Link to two pacakges containing the VMs used in this development:
+  https://drive.google.com/drive/folders/1mc2AH47w_xcoVuvFGS5YriMFkEoTyNHn?usp=sharing
 
   How to run the script:
   - Command example: python3 SparkAdvancedWordCount-LOCAL.py spark://vm-master:7077 bucket/input bucket/output sample-a.txt
