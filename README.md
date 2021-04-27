@@ -5,7 +5,7 @@ Author: Victor-Florian Davidescu
 
 SID: 1705734
 
-# Version 1 (Local) - SparkAdvancedWordCount-LOCAL.py
+# Version 1 (Virtual Machine) - SparkAdvancedWordCount-VM.py
 
   Description: This version was created to test the functionality on a local machine or on a VM with Spark installed on it.
   
@@ -19,8 +19,10 @@ SID: 1705734
   - IMPORTANT! All VMs must have the same directory tree with the samples files included, to make the script work
 
   How to run the script:
-  - Command example: python3 SparkAdvancedWordCount-LOCAL.py spark://vm-master:7077 bucket/input bucket/output sample-a.txt
-  - Argument 1 (spark://vm-master:7077): The URL link to the apache spark master server. 
+  - Have at least a master VM and a slave VM ready, and make sure the worker is connected to the master node.
+  - Download the GitHub repository on all VMs.
+  - Command example: python3 SparkAdvancedWordCount-VM.py spark://ip-address:7077 bucket/input bucket/output sample-a.txt
+  - Argument 1 (spark://ip-address:7077): The URL link to the apache spark master server. 
   - Argument 2 (bucket/input): The directory path where the sample txt file is located.
   - Argument 3 (bucket/output): The directory path where the output sample txt file will be created.
   - Argument 4 (sample-a.txt): The name of the sample txt file.
