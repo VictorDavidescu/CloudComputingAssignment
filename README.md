@@ -10,12 +10,13 @@ SID: 1705734
   Description: This version was created to test the functionality on a local machine or on a VM with Spark installed on it.
   
   Tested environment details:
-  - Machine type: Oracle VM Virtual Box
+  - Tool used for VMs: Oracle VM Virtual Box
   - OS: Ubuntu 20.04
-  - Packages installed: JDK, Scala, Git, Python 3.x, Apache Spark 3.0.2 with Hadoop 3.2 and later
+  - Packages installed: JDK, Scala, Git, Python 3.8.5, Apache Spark 3.0.2 with Hadoop 3.2 and later
     WARNING: It requires to configure the spark environment. 
     Details to how to install apache spark on Ubuntu can be found at this link: https://phoenixnap.com/kb/install-spark-on-ubuntu  
   - Used two VMs, one for the master server, the other one as worker
+  - Make sure that slave VM is able to connect 
   - IMPORTANT! All VMs must have the same directory tree with the samples files included, to make the script work
 
   How to run the script:
